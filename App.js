@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack'
 import Login from './src/Screens/Login'
-import Register from './src/Screens/Register'
+import Transfer from './src/Screens/Transfer'
 
 
 const Stack = createStackNavigator();
@@ -18,8 +18,8 @@ class App extends Component {
       options={{ headerShown: false }}
       /> */}
          <Stack.Screen
-      name="Register"
-      component={Register}
+      name="Transfer"
+      component={Transfer}
       options={{ headerShown: false }}
       />
       </Stack.Navigator>
